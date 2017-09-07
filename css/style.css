@@ -1,0 +1,93 @@
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-inverse {
+    background-color: #1c3b6b;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #e1dbdb;
+}
+
+.navbar-brand {
+    background-color: #022856;
+}
+
+.navbar-header > .navbar-brand:hover {
+    background-color: #022856;
+}
+
+.white {
+    color: white;
+}
+
+.navbar-header {
+    font-size: 19px;
+}
+
+#mainImg {
+    width: 75%; 
+    height: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  /*background-color: #f5f5f5;*/
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.space {
+    margin-top: 25px;
+}
+
+body {
+    background-color: #e9e2e2;
+}
+
+.gray {
+    border-top: 1px solid #a59d9d;
+}
+
+.pandoraImg {
+    margin-left: 100px;
+}
+/*15*/
+
+.alexaImg {
+    margin-left: 150px;
+}
+
+#main {
+    color: white;
+}
+
+#first {
+    color: white;
+}
+
+#second {
+    color: white;
+}
+
+#third {
+    color: white;
+}
+
+.game {
+    margin-left: 125px;
+}

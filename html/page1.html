@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homework 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index.php">Homework 1</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a id="first" href="page1.html">Page 1</a></li>
+                <li><a href="page2.html">Page 2</a></li>
+                <li><a href="page3.html">Page 3</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <img alt="alexa" src="data:image/jpeg;base64,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" class="img-rounded alexaImg" >
+            </div>
+            <div class="col-md-6">
+                <h3><a href="https://www.forbes.com/sites/robertadams/2017/01/10/10-powerful-examples-of-artificial-intelligence-in-use-today/2/#165237193c8b" target="_blank">Alexa</a></h3>
+                <p>Allows Amazon users to order items without needing a GUI interface.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="text-muted">
+            <hr class="gray">
+            CST 336. &copy; 2017 Loza <br>
+        </div>
+      </div>
+    </footer>
+
+</body>
+
+</html>
